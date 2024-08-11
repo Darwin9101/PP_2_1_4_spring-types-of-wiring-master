@@ -12,4 +12,9 @@ public class Needle7 {
     public String toString() {
         return ", смерть Кощея на игле :( " + deth.toString();
     }
+
+    @Autowired
+    public void setDeth(Deth8 deth) {
+        this.deth = deth;
+    }
 }
